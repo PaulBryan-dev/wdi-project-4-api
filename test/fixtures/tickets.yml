@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  club: MyString
+  image: MyString
+  value: 1
+  family_enclosure: false
+
+two:
+  user: two
+  club: MyString
+  image: MyString
+  value: 1
+  family_enclosure: false
