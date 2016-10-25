@@ -6,14 +6,11 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :last_name
       t.string :email
       t.string :password_digest
-      t.integeer :fan_of
+      t.string :team
       t.string :image
-      t.string :ticket_image
-      t.string :seat_location
-      t.string :quantity_owned
+      t.integer :quantity_owned
 
       t.timestamps
     end
-    add_index :users, :fan_of
   end
 end
