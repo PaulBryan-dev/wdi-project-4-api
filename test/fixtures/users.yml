@@ -4,8 +4,22 @@ one:
   username: MyString
   first_name: MyString
   last_name: MyString
+  email: MyString
+  password_digest: MyString
+  fan_of: 
+  image: MyString
+  ticket_image: MyString
+  seat_location: MyString
+  quantity_owned: MyString
 
 two:
   username: MyString
   first_name: MyString
   last_name: MyString
+  email: MyString
+  password_digest: MyString
+  fan_of: 
+  image: MyString
+  ticket_image: MyString
+  seat_location: MyString
+  quantity_owned: MyString

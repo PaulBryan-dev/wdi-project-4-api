@@ -12,4 +12,4 @@ u2 = User.create!(username: "cora", first_name: "Cora", last_name: "Barrett", em
 
 u3 = User.create!(username: "alex", first_name: "Alex", last_name: "Chin", email: "alex@alex.com", password: "password", password_confirmation: "password")
 
-u4 = User.create!(username: "kenny", first_name: "Kenny", last_name: "McCormick", email: "kenny@kenny.com", password: "password", password_confirmation: "password")
+u4 = User.create!(username: "kenny", first_name: "Kenny", last_name: "Loggins", email: "kenny@kenny.com", password: "password", password_confirmation: "password")
