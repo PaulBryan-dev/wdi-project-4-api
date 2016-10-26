@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+•  buying / selling / trading (enum)   _required_
+•  date (date)  _required_
+•  stadium (enum)  _required_
+•  block (integer) _required_
+•  row (integer)  _required_
+•  seat_number (integer)  _required_
+•  selling_price (integer)  _required_
+•  face_value (integer)  _required_
+•  exchange_considered (boolean) _required_

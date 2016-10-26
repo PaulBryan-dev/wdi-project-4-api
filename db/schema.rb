@@ -39,5 +39,19 @@ ActiveRecord::Schema.define(version: 20161025155910) do
     t.datetime "updated_at",      null: false
   end
 
+  create_table "swaps", force: :cascade do |t|
+    t.string   "username"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "password_digest"
+    t.string   "team"
+    t.string   "image"
+    t.integer  "quantity_owned"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+
   add_foreign_key "tickets", "users"
 end
