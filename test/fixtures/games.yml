@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ticket: one
+  home: MyString
+  away: MyString
+  date: 2016-10-26
+
+two:
+  ticket: two
+  home: MyString
+  away: MyString
+  date: 2016-10-26

@@ -15,7 +15,7 @@ class TicketsController < ApplicationController
 
   # POST /tickets
   def create
-    @ticket = Ticket.new(ticket_params)
+    @ticket = @current_user.tickets.new(ticket_params)
 
     if @ticket.save
       render json: @ticket, status: :created, location: @ticket
