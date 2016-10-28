@@ -10,7 +10,12 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user
+    render json: @user, include: {
+      tickets: [],
+      games: [],
+      sent_swaps: [:game],
+      received_swaps: [:game]
+    }
   end
 
   # POST /users

@@ -25,6 +25,7 @@ class Ticket < ApplicationRecord
 
   belongs_to :user
   has_many :games
+  has_many :swaps
 
   validates :club, inclusion: { in: Ticket::TEAMS, message: "%{value} is not a Premiership team" }
 end
